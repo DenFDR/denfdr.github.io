@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
+<title>Системное администрирование</title>
+</head>
+<body>
+<h1 align="center" style="font-family:courier;color:black">AVZ 4.46</h1>
+</div>
+<header>
+	<nav class="menu">
+		<ul>
+			<li><a href="index.html"><i class="fa fa-home"></i>Главная</a></li>
+			<li><a href="p1.html"><i class="fa fa-list"></i>Средства мониторинга, контроля и диагностики системы</a>
+				<ul>
+					<li><a href="winlock.html">WinLock 7.4.1</a></li>
+					<li><a href="hgm.html">HomeGuard Activity Monitor 3.4.1</a></li>
+					<li><a href="aida64.html">AIDA 64 Extreme Edition 5.92.4300</a></li>
+				</ul>
+			</li>
+			<li><a href="p2.html"><i class="fa fa-list"></i>Файерволлы и антишпионские программы</a>
+				<ul>
+					<li><a href="sas.html">SUPERAntySpyware Free 6.0.1250</a></li>
+					<li><a href="avz.html">AVZ 4.46</a></li>
+					<li><a href="iobit.html">IObit Malware Fighter 5.3.0.4078s</a></li>
+				</ul>
+			</li>
+			<li><a href="p3.html"><i class="fa fa-list"></i>Средства оперативного восстановления системы</a>
+				<ul>
+					<li><a href="wdr.html">Wise Data Recovery 3.87</a></li>
+					<li><a href="diskdrill.html">Disk Drill 2.0.0.300</a></li>
+					<li><a href="winrep.html">Windows Repair 4.0.9</a></li>
+				</ul>
+			</li>
+			<li><a href="information.html"><i class="fa fa-navicon"></i>Информация</a>
+				<ul>
+					<li><a href="about.html">Информация об авторе</a></li>
+					<li><a href="spisok.html">Список используемых материалов</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<a href="#" title="Вернуться к началу" class="topbutton"><i class="fa fa-arrow-circle-up"></i>Наверх</a>
+	<div class="video">
+		<p><b>AVZ</b> — бесплатный антивирусный сканер, используемый для быстрого обнаружения и удаления вирусов и шпионских программ.</p>
+		<p align="center"><img src="image/avz/scr1.png" width="600">Рис. 1. Главное окно программы</p>
+		<ul>В главном окне представлены все разделы компьютера, в нашем случае это диск C, а также гостевой режим. Кроме этого справа указаны виды вредоносных программ и элементов:
+			<li>Вирусы – вредоносное программное обеспечение</li>
+			<li>AdvWare- программное обеспечение, содержащее рекламу</li>
+			<li>Spy/Spyware – шпионские программы</li>
+			<li>Dialer/PornWare- программы отображающие на устройстве нежелательный контент</li>
+			<li>HackTool – хакерские программы, предназначенные для взлома аккаунтов</li>
+			<li>RiskWare –разрешенные программы, которые могут причинить вред компьютеру, если злоумышленники используют ее для удаления или изменения данных</li>
+		</ul>
+		<p align="center"><img src="image/avz/scr2.png" width="600">Рис. 2. Выбор методики лечения</p>
+		<p>В пункте выбора методики лечения есть довольно интересный режим удаления файлов – эвристический. Данный метод “разумно” удаляет вредоносные файлы. После удаления файла производится анализ системы и удаляет все оставшиеся файлы, которые ссылаются на удаленный файл. В результате данное удаление является наиболее корректным.</p>
+		<p align="center"><img src="image/avz/scr3.png" width="600">Рис. 3. Выбор действия с вредоносными файлами</p>
+		<ul>Так можно выбрать, что делать с тем или иным вредоносным элементов. Можно оставить пункт “Спросить у пользователя”, тогда после завершения сканирования нам будет предложено несколько вариантов решения:
+			<li>Удаление файла</li>
+			<li>Лечение<li>
+			<li>Отчет (в данном случае будет выведен список с найденным вредоносным программным обеспечением, сами файлы не будут тронуты)</li>
+		</ul>
+		<p align="center"><img src="image/avz/scr4.png" width="600">Рис. 4. Процесс сканирования системы</p>
+		<p>В ходе проверки компьютера программа “ругалась” на программу HomeGuard Activity Monitor, так как в программе присутствует функция keylogger’а, но в результате подозрений не было обнаружено. Про функции программы HomeGuard Activity Monitor можно узнать <a href="hgm.html" style="text-decoration:none;color:red">здесь.</a></p>
+		<p align="center"><img src="image/avz/scr5.png" width="600">Рис. 5. Завершение сканирования</p>
+		<p>В результате проведения сканирования угроз обнаружено не было.</p>
+		<p align="center"><img src="image/avz/scr6.png" width="600">Рис. 6. Параметры поиска вредоносного программного обеспечения</p>
+		<p>На рисунке №6 представлена возможность настройки параметров поиска.</p>
+		<p align="center"><img src="image/avz/scr7.png" width="600">Рис. 7. Выбор проверки файлов</p>
+		<p>Можно выбирать какие файлы будут проверяться программой.</p>
+		<p align="center"><img src="image/avz/scr8.png" width="600">Рис. 8. Список запущенных процессов</p>
+		<p>На картинке выше отображается список запущенных процессов. В нашем случае программа “ругается” на один процесс, программу HomeGuard Activity Monitor.</p>
+		<p align="center"><img src="image/avz/scr9.png" width="600">Рис. 9. Порты TCP</p>
+		<p>Также можно просмотреть все порты UDP/TCP.</p>
+		<p>Данная утилита может быть полезной для кого-то, учитывая то, что продукт полностью бесплатный. С нахождением вирусов и шпионских элементов программа справляется. И если вы беспокоитесь за то, что ваш компьютер может подвергнуться шпионской атакой, то можете смело использоваться AVZ для предотвращения атак.</p>
+	</div>
+</header>
+</body>
+</html>
