@@ -1,0 +1,117 @@
+body{
+	background-image: url("../image/s.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+header{
+	top: 200px;
+}
+.menu *{
+margin: ;
+padding: ;
+text-decoration: none;
+}
+.menu ul,
+.menu ol{
+	list-style: none;
+}
+.menu > ul{
+	display: flex;
+	justify-content: center;
+}
+.menu > ul li a{
+	display: block;
+	background: #2F4F4F; /* #2F4F4F */ /*transparent*/
+	padding: 15px 20px 25px 50px;
+	font-size: 12px;
+	font-weight: 650;
+	font-family:courier;
+	cursor: pointer;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	box-shadow: 1px 5px 18px -5px black;
+}
+.menu > ul li{
+	position: relative;
+	border-right: 1px solid #000000;
+}
+.menu > ul li > a i.fa{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	font-size: 25px;
+}
+.menu > ul li:first-child{
+	border-left: 1px solid #000000;
+}
+.menu > ul li:last-child{
+	border-right: 1px solid #000000;
+}
+
+.menu li a:hover{
+background: #800080;
+color: #000000;
+box-shadow: 1px 5px 18px -5px black;
+transition: all 0.5s ease;
+}
+
+/* Выпадающие списки*/
+.menu li ul{
+position: absolute;
+min-width: 250px;
+display: none;
+left: -40px;
+}
+	
+.menu li > ul li{
+border: 1px solid #000000;
+}
+
+.menu li > ul li a{
+	padding: 20px;
+	text-transform: none;
+	background: #2F4F4F;
+}
+
+.menu li:hover > ul{
+display: block;
+}
+
+.topbutton {
+width:80px;
+border:1px solid #2F4F4F;
+background:#DCDCDC;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:25px;
+right:20px;
+cursor:	pointer;
+color:#333;
+font-family:times;  
+font-size:14px;
+border-radius: 5x;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+}
+.video {
+	width: 600px;
+	margin: 10px auto;
+	padding: 5px 100px;
+	text-indent: 2px;
+	font: 20px ;
+	color: White;
+	font-family: times;
+	outline: 0px solid #FFFFFF;
+	/*background-color: #D8EA9D;*/
+	background-image: url("../image/2.png");
+	background-position: fixed;
+	background-repeat: repeat;
+	border: 1px solid #000000;
+	box-shadow: 0 0 5px 5px black;
+	border-radius: 8px;
+}
